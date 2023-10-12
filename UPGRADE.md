@@ -2,7 +2,6 @@
 
 The last V2.0 update and the new V3.0 branch have introduced changes into the keymap files that causes merge conflicts for people updating with custom keymaps. This guide covers what changed, why it changed and how to fix it.
 
-ok
 ## What changed and why
 
 To resolve issues some users were encountering with out of matrix keypresses, as well as to streamline the keymap for all future updates, several keys that are unused were removed from the keymap and [matrix transform](https://zmk.dev/docs/config/kscan#matrix-transform). Formatting was also standardised to fall in line with ZMK formatting conventions. As a result the board definition for the Advantage 360 Pro as it stands to get merged into ZMK main [here](https://github.com/zmkfirmware/zmk/pull/1454) matches the one in this repository to the greatest extent possible. 
