@@ -1,14 +1,14 @@
-macro_end_;: macro_end_;{
+macro_end_brace: macro_end_brace{
 compatible = "zmk,behavior-macro";
-label = "macro_end_;";
+label = "macro_end_brace";
 #binding-cells = <0>;
-bindings = <&kp END>, <&kp SEMICOLON>;
+bindings = <&kp END>, <&kp SPACE>, <&kp LEFT_BRACE>;
 };
-macro_label = "macro_: macro_label = "macro_{
+macro_end_semicolon: macro_end_semicolon{
 compatible = "zmk,behavior-macro";
-label = "macro_label = "macro_";
+label = "macro_end_semicolon";
 #binding-cells = <0>;
-bindings = <&kp END>, <&kp LEFT_BRACE>;
+bindings = <&kp END>, <&kp SPACE>, <&kp SEMICOLON>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
