@@ -4,9 +4,9 @@ label = "macro_end_;";
 #binding-cells = <0>;
 bindings = <&kp END>, <&kp SEMICOLON>;
 };
-macro_end_{: macro_end_{{
+macro_label = "macro_: macro_label = "macro_{
 compatible = "zmk,behavior-macro";
-label = "macro_end_{";
+label = "macro_label = "macro_";
 #binding-cells = <0>;
 bindings = <&kp END>, <&kp LEFT_BRACE>;
 };
